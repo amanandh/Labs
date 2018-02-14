@@ -209,6 +209,7 @@ label {
 
 /* ===== My CSS Below ==== */
 
+
 h1{ /* Get our newsletter part */
   font-family: "Times New Roman", Times, sans-serif;
   font-size: 2em;
@@ -216,6 +217,8 @@ h1{ /* Get our newsletter part */
   margin-bottom: 40px;
   color: #ff6666;
 }
+
+
 form{
   padding-top: 20px;
   padding-right: 10px;
@@ -248,7 +251,11 @@ input[type = "submit"]{
 
 @media screen and (min-width: 320px) {
   html{
-    
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  p{
+    font-size: 20px;
   }
   
 }
